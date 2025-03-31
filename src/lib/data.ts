@@ -1,72 +1,71 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  name: "Ubiratan da R. Rodrigues",
+  location: "Sagunto, Spain",
+  email: "birarr@gmail.com",
+  github: "https://github.com/birarr",
+  linkedin: "https://www.linkedin.com/in/ubiratan-da-rosa-rodrigues-b1a717157/",
 };
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
-    location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    company: "The DG Murray Trust",
+    location: "Cape Town (Remote)",
+    position: "Frontend Developer",
+    period: "Jan 2024 - Dec 2024",
     achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+      "Developed and maintained frontend applications using technologies such as ReactJS, Redux, Graphql, Typescript y Tailwind.",
+      "Collaborated with cross-functional teams to deliver high-quality, easy-to-use software solutions.",
+      "Contributed to the development of impactful projects aimed at making a diﬀerence in people's lives.",
     ],
   },
   {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
+    company: "Appy Apps",
+    location: "Cape Town (Remote)",
+    position: "Frontend Developer",
+    period: "Jun 2022 - Jan 2023",
     achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
+      "Developed and maintained frontend applications using technologies such as ReactJS, Redux, Graphql, Typescript y Tailwind.",
+      "Collaborated with cross-functional teams to deliver high-quality, easy-to-use software solutions.",
+      "Contributed to the development of impactful projects aimed at making a diﬀerence in people's lives.",
     ],
   },
   {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
+    company: "Jungle Devs",
+    location: "Florianópolis, Brazil",
+    position: "Frontend Developer",
+    period: "Nov 2020 - Jun 2022",
     achievements: [
       "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
       "Implemented JavaScript-based features like user authentication and real-time updates.",
+      "Software planning",
     ],
   },
 ];
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
+    institution: "Universidade Federal de Santa Catarina - UFSC",
+    location: "Florianópolis, Brazil",
+    degree: "B Information Systems",
+    period: "Feb 2018 - Dec 2023",
     achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
+      "I have participated in numerous workshops and seminars",
+      "2019 - AI mini course exchange in Bogotá - Colombia",
+    ],
+  },
+  {
+    institution: "Universidade de Santa Cruz do Sul - UNISC",
+    location: "Santa Cruz do Sul, Brazil",
+    degree: "B International Relations",
+    period: "Mar 2011 - Jul 2016",
+    achievements: [
+      "I have participated in numerous workshops and seminars",
+      "2014 - Exchange in the USA",
     ],
   },
 ];
 export const skills = {
-  programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
-    "Python",
-    "C++",
-    "Java",
-    "Solidity",
-  ],
+  programmingLanguages: ["TypeScript", "JavaScript", "Node"],
   frontendDevelopment: [
     "Nextjs",
     "Reactjs",
@@ -78,39 +77,30 @@ export const skills = {
   ],
   backendDevelopment: ["Nodejs", "Expressjs"],
   databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
-  toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
-  ],
+  cloudAndDevOps: ["AWS", "CircleCI"],
+  toolsAndServices: ["Circle CI", "Sentry", "Neon"],
 };
 
 export const projects = [
   {
-    title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
+    title: "ECD Connect",
+    github: "https://ecdconnect.org.za/",
     description: [
-      "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
-      "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
-      "Real-Time Tracking: Designed systems to monitor carbon emissions and optimize resources.",
-      "Data-Driven Insights: Analyzed user patterns for adaptive energy and food management.",
-      "Reward Integration: Built QR-based green points system to incentivize eco-friendly actions.",
+      " A PWA project made for a South African NGO, which helps thousand of teachers to handle their schools in far far areas of the country, where the internet signal is very weak.",
     ],
   },
   {
-    title: "Mental Aarog",
-    github: "https://github.com/rishikesh2003/mental-aarog",
+    title: "Grow Great",
+    github: "https://www.growgreat.co.za/",
     description: [
-      "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
-      "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
-      "Developed a rewards system using MAG crypto token on Ethereum, enabling user engagement through in-app incentives.",
-      "Secure storage implemented via web3.storage, IPFS, and FileCoin.",
-      "Built with React, Supabase, Node.js, Flask, and Solidity, showcasing seamless integration of health tech and blockchain.",
+      " A PWA project made for a South African NGO, which helps thousand of healthcare workers to handle their patients in far far areas of the country, where the internet signal is very weak.",
+    ],
+  },
+  {
+    title: "Funda App",
+    github: "https://learn.smartstart.org.za/",
+    description: [
+      " A PWA project made for a South African NGO, which helps thousand of healthcare workers to handle their patients in far far areas of the country, where the internet signal is very weak.",
     ],
   },
 ];
